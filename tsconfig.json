@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./types"
+    ],
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "extends": "expo/tsconfig.base"
+}
